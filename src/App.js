@@ -13,6 +13,5 @@ function App() {
   <Landlords />
   <Services />
   </>
-
 }
 export default App;
