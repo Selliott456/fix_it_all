@@ -4,8 +4,8 @@ const Header = () => {
   return <div role="main">
   <img alt="bathroom" id="hero" src={bathroom3}></img>
     <div className="hero-text">
-      <h1>Fix it All</h1>
-      <p>and More</p>
+      <h1 id="hero-text">Fix it All</h1>
+      <p>Glasgow</p>
       <button>Services</button>
   </div>
   </div>
