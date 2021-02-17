@@ -1,6 +1,6 @@
 import React from 'react'
 import landlord from '../images/keys.jpg'
-import landlord2 from '../images/trade.jpg'
+
 
 
 const Landlords = () => {
@@ -16,7 +16,6 @@ return <div role="main">
     property, Fix It All can provide you with it. 
   </p>
 <img alt="landlord" className="landlord" src={landlord}></img>
-<img alt="landlord" className="landlord" src={landlord2}></img>
 </div>
 
 }

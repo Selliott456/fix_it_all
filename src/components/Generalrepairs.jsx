@@ -2,7 +2,7 @@ import React from 'react'
 
 const Generalrepairs = () => {
 
-  return <div role="main">
+  return <div className="generalRepairs" role="main">
     <h2>Design, Create or Repair</h2>
     <p>
       Our highly skilled team have years of experience

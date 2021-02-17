@@ -46,6 +46,15 @@ body {
 .repair {
   width:30vw;
 }
+
+.generalRepairs {
+  color: var(--background);
+  background-image: linear-gradient(rgba(0, 3, 5, 0.5), rgba(0, 3, 5, 0.5)), url("./images/bathroom_4.jpg");
+  background-repeat: no-repeat;
+  height: 60vh;
+  background-size: 100%
+}
+
 .landlord {
   width: 47vw;
   height: 200px;
