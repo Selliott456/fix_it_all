@@ -1,4 +1,8 @@
 import React from 'react'
+import repair from '../images/repair.jpg'
+import repair2 from '../images/repair_2.jpg'
+import carpenter from '../images/carpenter.jpg'
+
 
 const Home = () => {
 
@@ -22,7 +26,9 @@ const Home = () => {
       We do not accept anything short of perfection and
       neither should you.
     </p>
-   
+   <img className="repair" alt="repair" src={repair}></img>
+   <img className="repair" alt="repair" src={repair2}></img>
+   <img className="repair" alt="repair" src={carpenter}></img>
 
   </div>
 
