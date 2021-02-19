@@ -4,10 +4,13 @@ import Header from './components/Header'
 import Landlords from './components/Landlords'
 import Generalrepairs from './components/Generalrepairs'
 import Services from './components/Services'
+import Navbar from './components/Navbar'
+
 
 function App() {
   return<>
   <Header />
+  <Navbar />
   <About />
   <Generalrepairs />
   <Landlords />

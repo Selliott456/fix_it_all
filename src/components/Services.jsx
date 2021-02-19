@@ -1,7 +1,9 @@
 import React from 'react'
 
 const Services = () => {
-return <h2>Services</h2>
+return <div className="main">
+<h2>Services</h2>
+</div>
 }
 
 export default Services

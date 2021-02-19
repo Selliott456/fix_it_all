@@ -6,7 +6,7 @@ import carpenter from '../images/carpenter.jpg'
 
 const Home = () => {
 
-  return <div role="main">
+  return <div className="main" role="main">
     <h1>About</h1>
     <h2>
       Project Management
@@ -18,7 +18,6 @@ const Home = () => {
       Gas engineers, tilers and Plumbers to decorators and cleaners, We've
       got you covered.
     </p>
-    <h3>"Good enough is never enough"</h3>
     <img className="repair" alt="repair" src={repair}></img>
     <img className="repair" alt="repair" src={repair2}></img>
     <img className="repair" alt="repair" src={carpenter}></img>

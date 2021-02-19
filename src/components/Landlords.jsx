@@ -5,7 +5,7 @@ import landlord from '../images/keys.jpg'
 
 const Landlords = () => {
 
-return <div role="main">
+return <div className="main" role="main">
   <h2>Landlords</h2>
   <p>
     Fix It All has year of experience in managing
