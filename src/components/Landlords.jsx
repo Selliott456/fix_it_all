@@ -7,7 +7,9 @@ const Landlords = () => {
 
 return <div className="main" role="main">
   <h2>Landlords</h2>
-  <p>
+  <div className="landlordContainer">
+  
+  <p className="justify">
     Fix It All has year of experience in managing
     property portfolios on behalf of landlords. 
     <br></br>
@@ -16,6 +18,7 @@ return <div className="main" role="main">
     property, Fix It All can provide you with it. 
   </p>
 <img alt="landlord" className="landlord" src={landlord}></img>
+</div>
 </div>
 
 }

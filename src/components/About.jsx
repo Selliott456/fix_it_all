@@ -8,10 +8,9 @@ const Home = () => {
 
   return <div className="main" role="main">
     <h1>About</h1>
-    <h2>
-      Project Management
-    </h2>
-    <p>
+   
+    <div className="container">
+    <p className="justify">
       Fix It All aim to provide you with home improvement and
       property management services without the headaches. You tell
       us what you need, we make it happen. No nonsense. No fuss. From
@@ -19,16 +18,17 @@ const Home = () => {
       got you covered.
     </p>
     <img className="repair" alt="repair" src={repair}></img>
-    <img className="repair" alt="repair" src={repair2}></img>
-    <img className="repair" alt="repair" src={carpenter}></img>
-    <p>
+    <h2>
+      Project Management
+    </h2>
+    <p className="justify">
       At Fix It All you will find experienced
       and professional tradesmen with an eye for
       quality and a passion for customer satisfaction.
       We do not accept anything short of perfection and
       neither should you.
     </p>
-
+    </div>
   </div>
 
 }
