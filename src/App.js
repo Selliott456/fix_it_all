@@ -5,10 +5,12 @@ import Landlords from './components/Landlords'
 import Generalrepairs from './components/Generalrepairs'
 import Services from './components/Services'
 import Navbar from './components/Navbar'
+import Mobilenav from './components/Mobilenav'
 
 
 function App() {
   return<>
+  <Mobilenav />
   <Header />
   <Navbar />
   <About />

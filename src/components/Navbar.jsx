@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Navbar = () =>{
-  return<nav>
-    <ul>
+  return<nav className="nav">
+    <ul className="navList">
       <a>About</a>
       <a>General Repairs</a>
       <a>Landlords</a>
